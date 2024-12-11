@@ -1,4 +1,5 @@
 import { StyleSheet, View, Text, Button,TextInput } from 'react-native';
+import { useState } from 'react';
 
 const Screen1 = ({ navigation }) => {
   const [name, setName] = useState('');
